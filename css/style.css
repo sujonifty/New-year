@@ -1,5 +1,44 @@
-*{
+* {
+    font-family: 'Merriweather', serif;
     margin: 0px;
     padding: 0px;
-    background-color: antiquewhite;
 }
+/* --------Heading section-------- */
+.heading {
+    max-width: 1600px;
+    background-color: #FFF;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 25rem;
+    background-image: url("../images/Banner.png");
+    background-size: cover;
+    margin: 3rem auto;
+    border-radius: 1rem;
+
+}
+
+.heading-content {
+    max-width: 632px;
+    width: 632px;
+    color: blue;
+    text-align: center;
+    margin: 3rem auto;
+
+}
+
+.heading-title {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 4rem;
+}
+
+.heading-description {
+    font-size: 3rem;
+    font-weight: 700; 
+}
+
+/* ------------Discoint section-------- */
