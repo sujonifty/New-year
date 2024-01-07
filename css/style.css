@@ -1,5 +1,4 @@
 * {
-    font-family: 'Merriweather', serif;
     margin: 0px;
     padding: 0px;
 }
@@ -78,28 +77,27 @@
 }
 
 /* ---------Midnight party section--------- */
-.same-container {
-    width: 85%;
-    height: 25rem;
-    margin: 3rem auto;
-    border-radius: 1rem;
 
-}
 #party-container {
     background-image: url("../images/Vector.png");
     background-size: cover;
 }
 
+.same-container {
+    width: 85%;
+    height: 18rem;
+    margin: 3rem auto;
+    border-radius: 1rem;
+
+}
 
 .party-title {
     color: #FFF;
-    font-family: Merriweather;
     font-size: 2.5rem;
-    font-style: normal;
     font-weight: 900;
     letter-spacing: 0.2rem;
     margin-left: 6rem;
-    padding-top: 6rem;
+    padding-top: 4rem;
 }
 
 .party-description {
@@ -112,8 +110,56 @@
     margin-left: 6rem;
     padding-top: 1rem;
 }
-.btn-party{
+
+.btn-party {
     margin-top: 0.5rem;
     padding: 0.2rem;
+    border-radius: 0.25rem;
 }
 
+ .btn-party a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ---------Hotel park section--------- */
+.hotel-park {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    
+}
+
+.hotel {
+    text-align: center;
+    color: #070211;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: Inter;
+    line-height: 2rem;
+    font-style: normal;
+    text-transform: capitalize;
+    padding-top: 4rem;
+}
+
+.park {
+    color: #F00;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2rem;
+    font-family: Inter;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.btn-hotel a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.btn-hotel {
+    margin-top: 0.75rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    background: #F00;
+    font-weight: 600;
+    border: 2px solid #FFF;
+}
