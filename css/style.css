@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 /* --------Heading section-------- */
 .heading {
     max-width: 1600px;
@@ -38,7 +39,46 @@
 
 .heading-description {
     font-size: 3rem;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 /* ------------Discoint section-------- */
+#discount {
+    font-family: Inter;
+    text-align: center;
+}
+
+#discount-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+.para-description {
+    color: #F00;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.title {
+    color: #070211;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+}
+
+#img-container {
+    width: 40%;
+    height: 2rem;
+    margin: 1.5rem auto;
+
+}
+
+#img-container img {
+    width: 100%;
+}
