@@ -22,6 +22,7 @@
 
 }
 
+
 .heading-content {
     max-width: 632px;
     width: 632px;
@@ -42,7 +43,7 @@
     font-weight: 700;
 }
 
-/* ------------Discoint section-------- */
+/* ------------Discount section-------- */
 #discount {
     font-family: Inter;
     text-align: center;
@@ -53,12 +54,11 @@
     font-family: Inter;
     font-size: 3rem;
     font-weight: 700;
-    
+
 }
 
 .para-description {
     color: #F00;
-    font-family: Inter;
     font-size: 0.75rem;
     font-weight: 500;
     margin-top: 1rem;
@@ -72,13 +72,48 @@
     margin-top: 0.25rem;
 }
 
-#img-container {
-    width: 40%;
-    height: 2rem;
-    margin: 1.5rem auto;
-
+.bg-pic {
+    height: 50px;
+    width: 45px;
 }
 
-#img-container img {
-    width: 100%;
+/* ---------Midnight party section--------- */
+.same-container {
+    width: 85%;
+    height: 25rem;
+    margin: 3rem auto;
+    border-radius: 1rem;
+
 }
+#party-container {
+    background-image: url("../images/Vector.png");
+    background-size: cover;
+}
+
+
+.party-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    margin-left: 6rem;
+    padding-top: 6rem;
+}
+
+.party-description {
+    width: 30rem;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 6rem;
+    padding-top: 1rem;
+}
+.btn-party{
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+}
+
