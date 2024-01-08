@@ -166,11 +166,12 @@
 }
 
 /* ---------offer section--------- */
-.offer{
+.offer {
     margin: 4rem auto;
-    background-image:  linear-gradient(180deg, rgba(0, 255, 0, 0.00) 100%, rgba(0, 255, 0, 0.1) 10%);
+    background-image: linear-gradient(180deg, rgba(0, 255, 0, 0.00) 100%, rgba(0, 255, 0, 0.1) 10%);
     margin-top: 4rem;
 }
+
 .offer-container {
     display: flex;
     justify-content: space-evenly;
@@ -213,12 +214,14 @@
     border-radius: 48%;
 
 }
+
 .offer-conclusion {
     width: 25%;
     padding: 3rem;
     margin-right: 4rem;
-    
+
 }
+
 .offer-year {
     color: #F00;
     font-family: Inter;
@@ -226,7 +229,7 @@
     font-weight: 700;
 }
 
-.offer-last-para{
+.offer-last-para {
     width: 3rem;
     color: rgba(7, 2, 17, 0.60);
     width: 18rem;
@@ -238,6 +241,39 @@
     margin-top: 1rem;
 }
 
-#offer-img-2{
+#offer-img-2 {
     margin-top: 1rem;
+}
+
+/* ---------cards section-------- */
+.cards-heading{
+    margin-left: 2rem;
+}
+.gift {
+    width: 48%;
+    color: #F00;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+.cards-title{
+    color: #070211;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+}
+.cards {
+    width: 25%;
+    margin: 30px;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.cards-container {
+    display: flex;
+    align-items: center;
+    
 }
