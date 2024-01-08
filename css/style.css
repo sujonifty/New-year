@@ -335,3 +335,54 @@ input {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
 }
+
+/* -----------Footer section---------- */
+
+/* ------address & copyrights section */
+footer{
+    width: 100%;
+    color: #FFF;
+    background-color: #000;
+}
+.address{
+    width: 24%;
+}
+.contact-items img{
+width: 15px;
+text-align: center;
+margin: 0.35rem;
+}
+.contact-items{
+
+margin-top: 0.35rem;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0rem;
+}
+/* -----social media section------ */
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media img{
+    width:2rem;
+    margin: 3rem 0.5rem;
+}
+/* ------unsubscribe section------ */
+#Unsubscribe button{
+    background-color: #000;
+    color: #ffffff;
+    border: 2px solid #646161;
+    border-radius: 0.20rem;
+    margin-right: 2rem;
+    padding: 0.25rem;
+}
