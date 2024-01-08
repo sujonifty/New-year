@@ -47,7 +47,9 @@
     font-family: Inter;
     text-align: center;
 }
-
+.discount-content p{
+    margin: 1rem auto;
+}
 #discount-title {
     color: #F00;
     font-family: Inter;
@@ -73,7 +75,8 @@
 
 .bg-pic {
     min-height: 50px;
-    width: 45px;
+    width: 33%;
+    margin-top: 2rem;
 }
 
 /* ---------Midnight party section--------- */
@@ -174,13 +177,16 @@
 
 .offer-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+}
+.container {
+    text-align: center ;
 }
 
 .offer-description {
     width: 25%;
-    padding: 2rem;
+    padding: 2.25rem;
     margin-right: 2rem;
 }
 
@@ -203,16 +209,18 @@
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 400;
+    
 }
 
 #offer-img {
-    background-image: url("../images/Ellipse1.png");
-    background-size: cover;
-    min-height: 10rem;
-    width: 10rem;
+    width: 25%;
+    padding: 0.5rem;
     border: 5px solid #F00;
     border-radius: 100%;
 
+}
+#offer-img img{
+    width: 100%;
 }
 
 .offer-conclusion {
@@ -245,6 +253,31 @@
     margin-top: 1rem;
 }
 
+/* ---------Holyday sale section--------- */
+.holyday-img {
+    background-color: aqua;
+    width: auto;
+    position: relative;
+    bottom: 0px;
+ }
+/* .holyday-img div #red-img {
+    width: 100%;
+} */
+ /* #red-img {
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}  */
+ #smiling-girl {
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.holyday-img div img{
+    width: 100%;
+}
 /* ---------cards section-------- */
 .cards-heading {
     margin-left: 2rem;
@@ -339,50 +372,61 @@ input {
 /* -----------Footer section---------- */
 
 /* ------address & copyrights section */
-footer{
+footer {
     width: 100%;
     color: #FFF;
     background-color: #000;
 }
-.address{
+
+.address {
     width: 24%;
 }
-.contact-items img{
-width: 15px;
-text-align: center;
-margin: 0.35rem;
-}
-.contact-items{
 
-margin-top: 0.35rem;
+.contact-items img {
+    width: 15px;
+    text-align: center;
+    margin: 0.35rem;
 }
-.contact{
+
+.contact-items {
+
+    margin-top: 0.35rem;
+}
+
+.contact {
     display: flex;
     flex-direction: row;
-    align-items: center;  
+    align-items: center;
 }
-.contact-container{
+
+.contact-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3rem 0rem;
 }
+
 /* -----social media section------ */
-.social-media{
+.social-media {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.social-media img{
-    width:2rem;
+
+.social-media img {
+    width: 2rem;
     margin: 3rem 0.5rem;
 }
+
 /* ------unsubscribe section------ */
-#Unsubscribe button{
+#Unsubscribe button {
     background-color: #000;
     color: #ffffff;
     border: 2px solid #646161;
     border-radius: 0.20rem;
     margin-right: 2rem;
     padding: 0.25rem;
+}
+hr{
+    opacity: 0.2;
 }
