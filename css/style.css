@@ -1,6 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Inter', sans-serif, 'Merriweather', serif;;
+
 }
 
 /* --------Heading section-------- */
@@ -11,13 +13,14 @@
 
 .container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 82.5%;
     min-height: 25rem;
     background-image: url("../images/Banner.png");
     background-size: cover;
-    margin: 3rem auto;
-    border-radius: 1rem;
+
+
 
 
 }
@@ -25,30 +28,25 @@
 
 .heading-content {
     max-width: 632px;
-    width: 70%;
-    color: #81d0f3;
+    color: #FFF;
+    margin: 12rem 3rem;
+    padding: 1rem;
 
 }
 
 .heading-title {
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: 400;
     margin-top: 4rem;
 }
 
 .heading-description {
-    font-size: 3rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: Merriweather;
+    line-height: 95px;
     font-weight: 900;
-
-}
-
-.year {
-    width: 15%;
-    margin-top: 5rem;
-}
-
-.year img {
-    width: 100%;
 }
 
 /* ------------Discount section-------- */
@@ -69,12 +67,20 @@
 
 }
 
-.para-description {
+.para-des {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* .para-description {
     color: #F00;
     font-size: 0.75rem;
     font-weight: 500;
     margin-top: 1rem;
-}
+} */
 
 .title {
     color: #070211;
@@ -93,12 +99,13 @@
 /* ---------Midnight party section--------- */
 
 #party-container {
+    height: 35rem;
     background-image: url("../images/Vector.png");
     background-size: cover;
 }
 
 .same-container {
-    width: 85%;
+    width: 82.5%;
     min-height: 18rem;
     margin: 3rem auto;
     border-radius: 1rem;
@@ -118,7 +125,7 @@
     width: 30rem;
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
-    font-size: 0.75rem;
+    font-size: 1.35rem;
     font-style: normal;
     font-weight: 400;
     margin-left: 6rem;
@@ -126,14 +133,36 @@
 }
 
 .btn-party {
-    margin-top: 0.5rem;
-    padding: 0.2rem;
-    border-radius: 0.25rem;
+    margin-top: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 0.35rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 8rem;
 }
 
 .btn-party a {
     text-decoration: none;
     color: #000;
+}
+
+.party {
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.year {
+    width: 20%;
+    margin: 0px;
+    position: relative;
+    right: 10rem;
+    top: 5rem;
+}
+
+.year img {
+    width: 100%;
 }
 
 /* ---------Hotel park section--------- */
@@ -304,28 +333,6 @@
 #red image {
     width: 100%;
 }
-
-/* #smiling-girl #red-img {
-    width: 100%;
-    position:absolute;
-    right: 0px;
-    bottom: 0px;
-}  
-
-#smiling-girl {
-    width: 30%;
-    position:relative;
-    right: 0px;
-    bottom: 0px;
-    display: flex;
-    align-items: center;
-    
-}
-#smiling-girl img{
-    width: 100%;
-} */
-
-
 
 /* ---------cards section-------- */
 .cards-heading {
