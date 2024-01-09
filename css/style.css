@@ -19,15 +19,14 @@
     margin: 3rem auto;
     border-radius: 1rem;
 
+
 }
 
 
 .heading-content {
     max-width: 632px;
-    width: 632px;
-    color: #FFFFFF;
-    text-align: center;
-    margin: 3rem auto;
+    width: 70%;
+    color: #81d0f3; 
 
 }
 
@@ -40,6 +39,14 @@
 .heading-description {
     font-size: 3rem;
     font-weight: 900;
+    
+}
+.year{
+    width: 15%;
+    margin-top: 5rem;
+}
+.year img{
+    width: 100%;
 }
 
 /* ------------Discount section-------- */
@@ -254,30 +261,54 @@
 }
 
 /* ---------Holyday sale section--------- */
-.holyday-img {
-    background-color: aqua;
-    width: auto;
+.holyday-img{
     position: relative;
+}
+#smiling-girl {
+    width: 30%;
+    position:absolute;
+    right: -34px;
+    bottom: 229px;
+    z-index: 1;
+    
+} 
+#dis-50{
+    position: absolute;
+    right: 178px;
+    bottom: 260px;
+    z-index: 2;
+}
+#box{
+    position: relative;
+    left: -78px;
+    bottom: -237px;
+    z-index: 1;
+}
+#red image {
+    width: 100%;
+}
+/* #smiling-girl #red-img {
+    width: 100%;
+    position:absolute;
+    right: 0px;
     bottom: 0px;
- }
-/* .holyday-img div #red-img {
+}  
+
+#smiling-girl {
+    width: 30%;
+    position:relative;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    
+}
+#smiling-girl img{
     width: 100%;
 } */
- /* #red-img {
-    width: 30%;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-}  */
- #smiling-girl {
-    width: 30%;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-}
-.holyday-img div img{
-    width: 100%;
-}
+
+
+
 /* ---------cards section-------- */
 .cards-heading {
     margin-left: 2rem;
