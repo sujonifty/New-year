@@ -1,7 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Inter', sans-serif, 'Merriweather', serif;;
+    font-family: 'Inter', sans-serif, 'Merriweather', serif;
+    ;
 
 }
 
@@ -75,13 +76,6 @@
     font-weight: 500;
 }
 
-/* .para-description {
-    color: #F00;
-    font-size: 0.75rem;
-    font-weight: 500;
-    margin-top: 1rem;
-} */
-
 .title {
     color: #070211;
     text-align: center;
@@ -102,6 +96,7 @@
     height: 35rem;
     background-image: url("../images/Vector.png");
     background-size: cover;
+    margin-bottom: 8rem;
 }
 
 .same-container {
@@ -168,7 +163,7 @@
 /* ---------Hotel park section--------- */
 .hotel-park {
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-
+    margin-bottom: 10rem;
 }
 
 .hotel {
@@ -219,6 +214,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10rem;
 }
 
 .container {
@@ -244,13 +240,13 @@
 .para-description {
     width: 5rem;
     color: rgba(7, 2, 17, 0.60);
-    width: 18rem;
+    width: 28rem;
+    text-align: left;
     color: #000;
     font-family: Inter;
-    font-size: 0.75rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
-
 }
 
 #offer-img {
@@ -279,28 +275,21 @@
     font-weight: 700;
 }
 
-.offer-last-para {
-    width: 3rem;
-    color: rgba(7, 2, 17, 0.60);
-    width: 18rem;
-    color: #000;
-    font-family: Inter;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 400;
-    margin-top: 1rem;
-}
-
 #offer-img-2 {
     margin-top: 1rem;
 }
 
 /* ---------Holyday sale section--------- */
-.holyday-description {
-    color: rgba(7, 2, 17, 0.60);
+.holyday-title {
+    color: #070211;
     text-align: center;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: Merriweather;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.set-color {
+    color: #F00;
 }
 
 .holyday-img {
@@ -310,7 +299,7 @@
 #smiling-girl {
     width: 30%;
     position: absolute;
-    right: -34px;
+    right: 84px;
     bottom: 229px;
     z-index: 1;
 
@@ -334,25 +323,29 @@
     width: 100%;
 }
 
+.holyday {
+    margin-bottom: 5rem;
+}
+
 /* ---------cards section-------- */
 .cards-heading {
     margin-left: 2rem;
 }
 
 .gift {
-    width: 48%;
     color: #F00;
+    text-align: left;
     font-family: Inter;
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 500;
-    padding-bottom: 0.5rem;
 }
 
 .cards-title {
     color: #070211;
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-top: 0.25rem;
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: capitalize;
 }
 
 .cards {
@@ -370,12 +363,17 @@
 
 }
 
+.all-cards {
+    margin-bottom: 5rem;
+}
+
 /* -----------Newsletter section---------- */
 .newsletter {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
-
+    margin-bottom: 5rem;
+    height: 24rem;
 }
 
 .newsletter-img img {
@@ -384,27 +382,33 @@
     margin: 1rem auto;
 }
 
+
 .news-description {
     width: 32rem;
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-size: 1rem;
+    font-family: Inter;
+    font-size: 1.5rem;
     font-weight: 400;
-    margin: 1rem auto;
+    margin: 2rem auto;
 }
 
 .newsletter-input {
-    width: 40%;
-    border: none;
+    /* width: 40%; */
     border-radius: 50px;
     margin: 1rem auto;
     border: none;
-
+    width: 648px;
+    height: 72px;
 }
 
 input {
     border: 2px solid #FFF;
     min-height: 20px;
+    width: 55%;
+    height: 35px;
+    padding: 0.35rem;
+    border-radius: 2rem 0px 0px 2rem;
 }
 
 .btn-newsletter a {
@@ -413,16 +417,18 @@ input {
 }
 
 .btn-newsletter {
-
+    max-width: 210px;
+    max-height: 72px;
+    width: 210px;
+    height: 3.25rem;
     text-align: center;
-    min-height: 23px;
     margin-left: -5px;
-    padding: 5px;
     font-weight: 600;
     text-transform: capitalize;
     border: 2px solid #FFF;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+
 }
 
 /* -----------Footer section---------- */
@@ -432,6 +438,7 @@ footer {
     width: 100%;
     color: #FFF;
     background-color: #000;
+    margin-bottom: 0rem;
 }
 
 .address {
