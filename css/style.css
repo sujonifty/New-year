@@ -299,7 +299,7 @@
 #smiling-girl {
     width: 30%;
     position: absolute;
-    right: 84px;
+    right: -13px;
     bottom: 229px;
     z-index: 1;
 
@@ -307,7 +307,7 @@
 
 #dis-50 {
     position: absolute;
-    right: 360px;
+    right: 220px;
     bottom: 260px;
     z-index: 2;
 }
