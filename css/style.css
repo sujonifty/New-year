@@ -366,7 +366,10 @@
 .all-cards {
     margin-bottom: 5rem;
 }
-
+.cards:hover{
+    transform: rotate(360deg);
+    transition: 1.3s;
+}
 /* -----------Newsletter section---------- */
 .newsletter {
     border-radius: 16px;
@@ -394,7 +397,7 @@
 }
 
 .newsletter-input {
-    /* width: 40%; */
+   
     border-radius: 50px;
     margin: 1rem auto;
     border: none;
@@ -433,7 +436,6 @@ input {
 
 /* -----------Footer section---------- */
 
-/* ------address & copyrights section */
 footer {
     width: 100%;
     color: #FFF;
